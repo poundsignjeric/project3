@@ -53,11 +53,11 @@ body {
 
 }
 .hint {
-	color: black;
+	color: magenta;
 }
 .hint:hover {
 	transition: color 0.5s ease-out;
-	color: white;
+	color: black;
 }
 .save {
 			background-color: magenta;
@@ -110,8 +110,8 @@ h6 {
 	left: 25%;
 }
 .title:hover{
-	transition: background-color 0.5s ease-in-out;
-	transition: color 0.5s ease-in-out;
+	transition: background-color 0.2s ease-in;
+	/* transition: color 0.5s ease-in-out; */
 	background-color: magenta;
 	color: black;
 }
@@ -124,7 +124,7 @@ ul {
 }
 li {
 	display: inline;
-	outline: 1px dashed pink;
-	padding: 2px 7px;
-	border-radius: 50%;
+	/* outline: 1px dashed pink; */
+	margin: 5px;
+	padding: 5px 10px;
 }

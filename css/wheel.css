@@ -9,6 +9,7 @@
   outline: 1px dashed pink;
 } */
 #sprite-container {
+  border: 1px dashed magenta;
   position: relative;
   text-align: center;
   display: inline-block;
