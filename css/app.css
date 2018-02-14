@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poppins');
+body {
+	width: 100%;
+	background: #000;
+	/* background: linear-gradient(to bottom right, cyan, magenta); */
+	color: white;
+	position: absolute;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	/* background-color: pink; */
+	width: 100%
+	position: absolute;
+}
+	div {
+	  /* outline: 1px solid blue; */
+	  position: relative;
+	  /* background: pink; */
+	}
+	a {
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		line-height: 200px;
+		font-size: 1.4rem;
+		font-family: 'Poppins', sans-serif;
+	}
+	#home a:hover {
+		color: black;
+	}
+	p {
+		font-family: 'Poppins', sans-serif;
+		font-size: 1rem;
+	}
+
+.box {
+	  /* outline: 1px solid black; */
+		height: 200px;
+	  display: block;
+	  width: 33%;
+	  position: relative;
+		text-align: center;
+	}
+.eagle {
+			background-color: yellow;
+			overflow: hidden;
+			/* border-radius: 75%; */
+		}
+.eagle:hover {
+	transition: background-color 0.5s ease-out;
+	background-color: green;
+
+}
+.hint {
+	color: black;
+}
+.hint:hover {
+	transition: color 0.5s ease-out;
+	color: white;
+}
+.save {
+			background-color: magenta;
+			/* border-radius: 50%; */
+		}
+.save:hover {
+	transition: background-color 0.5s ease-out;
+	background-color: orange;
+}
+.wheel {
+	background-color: cyan;
+	/* border-radius: 50%; */
+}
+.wheel:hover {
+	transition: background-color 0.5s ease-out;
+	background-color: blue;
+}
+header {
+		text-align: center;
+		width: 50%;
+		left: 25%;
+		height: 150px;
+		position: relative;
+	}
+h1, h2, h6 {
+	font-family: 'Playfair Display', serif;
+}
+h1 {
+	  text-align: center;
+		position: relative;
+		top: 0;
+		left: 0;
+		line-height: 100px;
+	}
+p {
+		font-size: 1rem;
+	}
+h2 {
+		font-size: 1.8rem;
+	}
+h6 {
+		font-size: 0.9rem;
+		margin-top:-15px;
+	}
+.title{
+	color: white;
+	background-color: black;
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+.title:hover{
+	transition: background-color 0.5s ease-in-out;
+	transition: color 0.5s ease-in-out;
+	background-color: magenta;
+	color: black;
+}
+footer {
+	height: 150px;
+}
+ul {
+	list-style-type: none;
+  text-align: center;
+}
+li {
+	display: inline;
+	outline: 1px dashed pink;
+	padding: 2px 7px;
+	border-radius: 50%;
+}
